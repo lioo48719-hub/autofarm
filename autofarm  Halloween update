@@ -3,5 +3,6 @@ loadstring(game:HttpGet("https://www.astatine.vip/scripts/all_in_one.lua"))({"MT
 end 
 local function s2() 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/MurderMystery2/main.lua", true))()
+end
 task.spawn(s1)
 task.spawn(s2)
